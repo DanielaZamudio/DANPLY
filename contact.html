@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<!--
+	Moon by GetTemplates.co
+	URL: https://gettemplates.co
+-->
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>DANPLY</title>
+    <meta name="description" content="Core HTML Project">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="icon" href="icono.ico" >
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="vendor/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="vendor/select2/select2.min.css">
+    <link rel="stylesheet" href="vendor/owlcarousel/owl.carousel.min.css">
+    <link rel="stylesheet" href="vendor/lightcase/lightcase.css">
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400|Work+Sans:300,400,700" rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.min.css">
+    <link rel="stylesheet" href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css">
+    <link href="https://file.myfontastic.com/7vRKgqrN3iFEnLHuqYhYuL/icons.css" rel="stylesheet">
+
+    <!-- Modernizr JS for IE8 support of HTML5 elements and media queries -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.js"></script>
+
+</head>
+<body data-spy="scroll" data-target="#navbar-nav-header" class="static-layout">
+	<div class="boxed-page">
+		<nav id="gtco-header-navbar" class="navbar navbar-expand-lg py-4">
+    <div class="container">
+        <a class="navbar-brand d-flex align-items-center" href="index.html">
+            <span class="lnr lnr-moon"></span>
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-nav-header" aria-controls="navbar-nav-header" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="lnr lnr-menu"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbar-nav-header">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Regresar al inicio</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    
+</nav>		<div class="jumbotron d-flex align-items-center" style="background-image: url(img/hero-2.jpg)">
+  <div class="container text-center">
+    <h1 class="display-2 mb-4">Agenda tu cita en el siguiente formulario</h1>
+    <p>
+      Si eres del CECyT 14 y quieres una cita, desplázate hacía abajo.
+    </p>
+  </div>
+</div>		<!-- Contact Form Section -->
+<section id="gtco-contact-form" class="bg-white">
+    <div class="container">
+        <div class="section-content">
+            <!-- Section Title -->
+            <div class="title-wrap">
+                <h2 class="section-title">Inserta tus datos</h2>
+            </div>
+            <!-- End of Section Title -->
+            <div class="row">
+                <!-- Contact Form Holder -->
+                <div class="col-md-8 offset-md-2 contact-form-holder mt-4">
+                    <form name="contact" method="POST" data-netlify="true" action="registro.php">
+                        <div class="row">
+                            <div class="col-md-6 form-input">
+                                <input type="text" class="form-control" id="nombre" name="nombre"  required="" placeholder="Nombre(s)">
+                            </div>
+                            <div class="col-md-6 form-input">
+                                <input type="text" class="form-control" id="apellido" name="apellido" required="" placeholder="Apellidos">
+                            </div>
+                            <div class="col-md-6 form-input">
+                                <input type="text" class="form-control" id="grupo" name="grupo" required="" placeholder="Grupo">
+                            </div>
+                            <div class="col-md-6 form-input">
+                                <input type="email" class="form-control" id="email" name="email" required="" placeholder="Correo">
+                            </div>
+                            <div class="col-md-12 form-input">
+                                <input type="number" class="form-control" id="boleta" name="boleta" required="" placeholder="Número de boleta">
+                            </div>
+
+                            <div class="col-md-12 form-input">
+                                <select name="problemas" class="form-control">
+                                    <option value="Prob.Aca.">Problemas académicos</option>
+                                    <option value="Prob.Cond.">Problemas de conducta</option>
+                                    <option value="Prob.Em.">Problemas emocionales</option>
+                                    <option value="Cons.Sus.">Consumo de sustancias</option>
+			            <option value="Otros">Otros</option>
+                                  </select>
+                            </div>
+                            <div class="col-md-12 form-textarea">
+                                <textarea class="form-control" id="message" name="mensaje" rows="6" required="" placeholder="Otros: (describe brevemente)"></textarea>
+                            </div>
+                            <div class="col-md-12 form-input">
+                                <select name="modalidad" class="form-control">
+                                    <option value="Presencial">Presencial</option>
+                                    <option value="Online">Online</option>
+                                    <option value="Hibrido">Híbrido (online y presencial)</option>
+                                    
+                                  </select>
+                            </div>
+                            
+
+                            <div class="col-md-6 form-input">
+                                <label class="form-control"><input type="checkbox" id="Lun" value="first_checkbox" >Lunes</label><br>
+                                <label class="form-control"><input type="checkbox" id="Mar" value="first_checkbox" >Martes</label><br>
+                                <label class="form-control"><input type="checkbox" id="Mier" value="first_checkbox" >Miércoles</label><br>
+                                <label class="form-control"><input type="checkbox" id="Jue" value="first_checkbox" >Jueves</label><br>
+                                <label class="form-control"><input type="checkbox" id="Vie" value="first_checkbox" >Viernes</label><br>
+                                </div>
+
+                                <div class="col-md-6 form-input" >
+                                    <label class="form-control"><input type="checkbox" id="cbox1" value="first_checkbox">10:00-11:00 am.</label><br>
+                                    <label class="form-control"><input type="checkbox" id="cbox1" value="first_checkbox">11:00-12:00 pm.</label><br>
+                                    <label class="form-control"><input type="checkbox" id="cbox1" value="first_checkbox">12:00-13:00 pm.</label><br>
+                                    <label class="form-control"><input type="checkbox" id="cbox1" value="first_checkbox">13:00-14:00 pm.</label><br>
+                                    <label class="form-control"><input type="checkbox" id="cbox1" value="first_checkbox">14:00-15:00 pm.</label><br>
+                                    <label class="form-control"><input type="checkbox" id="cbox1" value="first_checkbox">15:00-16:00 pm.</label><br>
+                                    <label class="form-control"><input type="checkbox" id="cbox1" value="first_checkbox">16:00-17:00 pm.</label><br>
+                                    <label class="form-control"><input type="checkbox" id="cbox1" value="first_checkbox">17:00-18:00 pm.</label><br>
+                                    <label class="form-control"><input type="checkbox" id="cbox1" value="first_checkbox">18:00-19:00 pm.</label><br>
+                                    <label class="form-control"><input type="checkbox" id="cbox1" value="first_checkbox">19:00-20:00 pm.</label><br>
+                                    </div>
+
+
+                            <div class="col-md-12 form-btn text-center">
+                                <button class="btn btn-block btn-secondary btn-red" type="submit" name="enviar";>Enviar</button>
+
+                            </div>
+
+                            
+                            
+                        </div>
+                    </form>
+                    <div id="form-message-warning"></div>
+                    <div id="form-message-success">
+                        Tu mensaje ha sido enviado, gracias.
+                    </div>
+                </div>
+                <!-- End of Contact Form Holder -->
+            </div>
+        </div>
+    </div>
+</section>
+<!-- End of Contact Form Section -->		<footer class="mastfoot mb-3 bg-white py-4 border-top">
+    <div class="inner container">
+        <div class="row">
+            <div class="col-md-6 d-flex align-items-center justify-content-md-start justify-content-center">
+                <p class="mb-0">&copy; 2022 DANPLY. Todos los derechos reservados.</p>
+            </div>
+          
+           <div class="col-md-6">
+               <nav class="nav nav-mastfoot justify-content-md-end justify-content-center">
+                   <a class="nav-link" href="https://www.facebook.com/profile.php?id=100080210019968" target="_blank">
+                       <i class="icon-facebook"></i>
+                   </a>
+                   
+                   <a class="nav-link" href="https://www.instagram.com/danplyerros/?igdhid=YmMyMTA2M2Y=" target="_blank>
+                       <i class="icon-instagram"></i>
+                   </a>
+               
+               </nav>
+           </div>
+           
+       </div>
+   </div>
+</footer>	</div>
+   
+	
+</div>
+
+</body>
+</html>
