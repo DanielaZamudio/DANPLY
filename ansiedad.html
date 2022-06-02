@@ -31,24 +31,72 @@
         <a class="navbar-brand d-flex align-items-center" href="index.html">
             <span class="lnr lnr-moon"></span>
         </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-nav-header" aria-controls="navbar-nav-header" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="lnr lnr-menu"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbar-nav-header">
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item">
-                    <a class="nav-link" href="index.html">Inicio</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="quienessomos.html">Sobre Nosotros</a>
-                </li>
-              
-                <li class="nav-item">
-                    <a class="nav-link" href="contact.html">Citas</a>
-                </li>
-            </ul>
-        </div>
-    </div>
+        <style type="text/css">
+			
+			* {
+				margin:0px;
+				padding:0px;
+			}
+			
+			#header {
+				margin:auto;
+				width:400px;
+				font-family:Arial, Helvetica, sans-serif;
+            
+			}
+			
+			ul, ol {
+				list-style:none;
+			}
+			
+			.nav > li {
+				float:left;
+			}
+			
+			.nav li a {
+				background-color:rgba(248, 163, 6, 0);
+				color:rgb(0, 0, 0);
+				text-decoration:none;
+				padding:10px 10px;
+				display:block;
+			}
+			
+			.nav li a:hover {
+				background-color:#43434300;
+			}
+			
+			.nav li ul {
+				display:none;
+				position:absolute;
+				min-width:300px;
+			}
+			
+			.nav li:hover > ul {
+				display:block;
+			}
+			
+			.nav li ul li {
+				position:relative;
+			}
+			
+			.nav li ul li ul {
+				right:-200px;
+				top:0px;
+			}
+			
+		</style>
+	</head>
+	<body>
+		<div id="header">
+			<ul class="nav">
+				<li><a href="index.html"><h4><b>Inicio</b></h4></a></li>
+					
+				<li><a href="quienessomos.html"><h4><b>Sobre Nosotros</b></h4></a></li>
+				<li><a href="https://form.jotform.com/221498331169864"><h4><b>Citas</b></h4></a></li>
+			</ul>
+		</div>
+	</body>
+</html>
     
 </nav>		<div class="jumbotron d-flex align-items-center" style="background-image: url(img/hero-2.jpg)">
   <div class="container text-center">
